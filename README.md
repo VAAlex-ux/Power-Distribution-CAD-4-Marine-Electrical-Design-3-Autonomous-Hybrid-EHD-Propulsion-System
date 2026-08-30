@@ -13,7 +13,8 @@ Battery pack reaches peak capacity $\text{SoC} \ge \text{SoC}_{\text{high}}$ and
 **Mode 2: Nominal Solar Harvest Cruising Trigger** 
 
 Solar arrays are operating under standard daylight and batteries are in a safe charging window $\text{SoC}_{\text{low}} < \text{SoC} < \text{SoC}_{\text{high}}$. The EHD sail is throttled down or turned off. The solar array is routed purely to the battery pack to saturate the chemical energy pool. The hydro-generators remain retracted or locked in a passive minimum-drag configuration.
-
+$\text{SoC}_{\text{low}} < \text{SoC} < \text{SoC}_{\text{high}}$
+$\text{SoC}_{\text{low}} < \text{SoC} < \text{SoC}_{\text{high}}$
 **Mode 3: Hydro-Regeneration Energy Recovery Trigger**
 
 The BMS tracks a sudden negative power derivative from the solar array $$\frac{dI_{\text{solar}}}{dt} < \text{Threshold}_{\text{drop}}$$
