@@ -1,6 +1,6 @@
 # Power-Distribution-CAD-4-Marine-Electrical-Design-3-Autonomous-Hybrid-EHD-Propulsion-System
 
-This is a prototype of an automated marine microgrid integrating solar overcharge drive electrohydrodynamic thrust using hydro-regenerative battery balancing. Additionally equipped with AA local chargers and Li Ion battery solar chargers. 
+This is a prototype of an automated marine solar microgrid array additionally equipped with Li Ion battery solar chargers. It implements a propellor-less ship that uses excess solar power to generate high voltage ionic wind sail. A smart onboarding power management system automatically activates an array of water generators to recharge lithium ion battery cells when there is lack of solar power using the ship's forward momentum.
 
 **System Overview**
 
