@@ -12,7 +12,7 @@ When excess charge saturates the chemical energy conduit volume and the counter-
 
 **State 2: Nominal Solar Energy Harvest Cruising State** 
 
-When the craft is cruising along in steady state operational conditions with day-light solar vector flux density operating on the arrays within nominal design specifications, with the pack power state of charge within "green" safe cruising limits $`\text{SoC}_{\text{low}} < \text{SoC} < \text{SoC}_{\text{high}}`$, then the spheroid sail asymmetry is throttled down or turned off and the solar arrays are routed directly into the pack as a charge saturation buffer and the hydro-generators are locked into a minimum-drag passive mode. 
+When the craft is cruising along in steady state operational conditions with day-light solar vector flux density operating on the arrays within nominal design specifications, with the pack power state of charge within green safe cruising limits $`\text{SoC}_{\text{low}} < \text{SoC} < \text{SoC}_{\text{high}}`$, then the spheroid sail asymmetry is throttled down or turned off and the solar arrays are routed directly into the pack as a charge saturation buffer and the hydro-generators are locked into a minimum-drag passive mode. 
 
 **State 3: Hydro-Regenerative Power Recovery Mode** 
 
