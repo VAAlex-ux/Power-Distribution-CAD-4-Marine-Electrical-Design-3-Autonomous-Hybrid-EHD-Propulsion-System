@@ -1,10 +1,21 @@
-This is a prototype of an automated marine microgrid integrating solar overcharge driven electrohydrodynamic thrust with hydro-regenerative battery balancing.
+This is a prototype of an automated marine microgrid integrating solar overcharge drive electrohydrodynamic thrust over hydro-regenerative battery balancing.
 
 **System Overview**
 
-This project presents solid-state marine vessel architecture that synthesizes advanced microgrid power routing with frontier atmospheric plasma dynamics. The system eliminates traditional mechanical propulsion vulnerabilities like friction, transmission loss and propeller cavitation by utilizing a fully insulated, asymmetric electrohydrodynamic sail as a dynamic energy buffer.
+This proposal explains a solid-state marine vessel architecture which synthesizes state-of-the-art microgrid power routing with leading frontier atmospheric plasma dynamics. It circumvents the commonly encountered mechanical ship propulsion pitfalls of surface friction, gear transmission inefficiency and prop cavitation by employing a fully dielectric eliptic asymmetric electrohydrodynamic sail as a real-time dynamic energy buffer. The Cell Management System acts as a near-perfect closed-loop logic gate which phases the craft through three distinct thermodynamic states.
 
-The Battery Management System acts as a central closed-loop logic gate switching the vessel through three discrete thermodynamic states.
+**State 1: Solar Overcharge Shunt Max Drive Activation** 
+
+When excess charge saturates the chemical energy conduit volume and the counter-based battery pack reaches "high" state of charge (SoC) $`\text{SoC} \ge \text{SoC}_{\text{high}}`$ and refuses to accept additional electrons the BMS instantaneously isolates the solar-to-cells energy transfer pathway, unleashing the energy excess into the high-voltage step-up stage which will draw the high-voltage, low-current electric spark energized from the Sun to the asymmetry of the underpowered sail where ionic wind immediately propels the craft forward and turns electrical potential into thrust. 
+
+**State 2: Nominal Solar Energy Harvest Cruising State** 
+
+When the craft is cruising along in steady state operational conditions with day-light solar vector flux density operating on the arrays within nominal design specifications, with the pack power state of charge within "green" safe cruising limits $`\text{SoC}_{\text{low}} < \text{SoC} < \text{SoC}_{\text{high}}`$, then the spheroid sail asymmetry is throttled down or turned off and the solar arrays are routed directly into the pack as a charge saturation buffer and the hydro-generators are locked into a minimum-drag passive mode. 
+
+**State 3: Hydro-Regenerative Power Recovery Mode** 
+
+When the cells unloading rate suddenly drops to a negative power derivative due to a cloud front passing overhead, such as defined by $`\frac{dI_{\text{solar}}}{dt} < \text{Threshold}_{\text{drop}}`$, then the spheroid sail asymmetry is de-energized and extracted, the hydro-generator deployment system is engaged, (or a hull mounted regeneration circuit activated) forming a continuous bridge between the forward momentum and the generator rotor disk to sustain and resuscitate the air-to-electric conversion cycle. The ship's forward kinetic momentum $`M_{\text{ship}} \cdot v`$
+drives the water past the generator, spinning the rotor to produce AC power.
 
 **Mode 1: Solar Overcharge Shunt Max Drive Trigger**
 
