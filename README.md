@@ -105,23 +105,23 @@ Where $V_{\text{bus}}$ is the nominal DC bus voltage, $I_{\text{batt}}$ is the b
 
 **State-Dependent Energy Routing Matrices**
 
-**Mode A Saturated Storage Shunt ($\text{SoC} \ge \text{SoC}_{\text{high}}$)**
+**Mode A Saturated Storage Shunt $\text{SoC} \ge \text{SoC}_{\text{high}}$**
 
-When the chemical storage is full, the battery charging current is forced to zero ($I_{\text{batt}} = 0$). The energy routing matrix shifts the entire solar output through the high-voltage transformer stage (operating at conversion efficiency $\eta_{\text{hv}}$), which modifies the open-system equation to:
+When the chemical storage is full, the battery charging current is forced to zero $I_{\text{batt}} = 0$. The energy routing matrix shifts the entire solar output through the high-voltage transformer stage (operating at conversion efficiency $\eta_{\text{hv}}$), which modifies the open-system equation to:
 
 $$\eta_{\text{hv}} P_{\text{solar}}(t) - P_{\text{loads}} = \left( \frac{I \cdot d}{\mu} \right) v + \dot{Q}_{\text{thermal}}$$
 
 Where $`\dot{Q}_{\text{thermal}}`$ represents the irreversible Joule heating losses inside the emitter-collector matrix $`
 \int_ {\mathcal{V}} \mathbf{J} \cdot \mathbf{E} \, d\mathcal{V}`$.
 
-**Mode B: Negative Derivative Solar Intercept ($`\frac{dI_{\text{solar}}}{dt} \le \text{Threshold}_{\text{drop}}`$)**
+**Mode B: Negative Derivative Solar Intercept $`\frac{dI_{\text{solar}}}{dt} \le \text{Threshold}_{\text{drop}}`$**
 
-When solar irradiance drops below the critical threshold, the BMS decouples the sail array ($`I = 0`$) and deploys the hydrogenerator. The hydrogenerator extracts a mechanical torque $`T_{\text{mech}}`$ from the water velocity gradient, converting it to electrical charging power through the generator alternator windings ($`\eta_{\text{gen}}`$):
+When solar irradiance drops below the critical threshold, the BMS decouples the sail array $`I = 0`$ and deploys the hydrogenerator. The hydrogenerator extracts a mechanical torque $`T_{\text{mech}}`$ from the water velocity gradient, converting it to electrical charging power through the generator alternator windings ($`\eta_{\text{gen}}`$):
 
-$$`V_{\text{bus}} I_{\text{batt}}(t) = \eta_{\text{gen}} \cdot T_{\text{mech}} \cdot \omega - P_{\text{loads}}`$$
+$`V_{\text{bus}} I_{\text{batt}}(t) = \eta_{\text{gen}} \cdot T_{\text{mech}} \cdot \omega - P_{\text{loads}}`$
 
 The extraction torque acts as an intentional hydrodynamic brake augmenting the total resistance profile.
 
-$$`R_{\text{total\_regen}}(v) = R_{\text{total}}(v) + \frac{T_{\text{mech}}}{r_{\text{turbine}}}`$$
+$`R_{\text{total\_regen}}(v) = R_{\text{total}}(v) + \frac{T_{\text{mech}}}{r_{\text{turbine}}}`$
 
 This forces a controlled decrescendo of the vessel's kinetic energy reservoir ($`M_{\text{ship}} v \frac{dv}{dt}`$) to preserve electrical system functionality in the absence of solar exergy inputs.
