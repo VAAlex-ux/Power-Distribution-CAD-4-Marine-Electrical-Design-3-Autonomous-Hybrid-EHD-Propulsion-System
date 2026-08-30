@@ -111,9 +111,8 @@ When the chemical storage is full, the battery charging current is forced to zer
 
 $$\eta_{\text{hv}} P_{\text{solar}}(t) - P_{\text{loads}} = \left( \frac{I \cdot d}{\mu} \right) v + \dot{Q}_{\text{thermal}}$$
 
-Where $`\dot{Q}_{\text{thermal}}`$ represents the irreversible Joule heating losses inside the emitter-collector matrix $$
-\int_ {\mathcal{V}} \mathbf{J} \cdot \mathbf{E} \, d\mathcal{V}
-$$.
+Where $`\dot{Q}_{\text{thermal}}`$ represents the irreversible Joule heating losses inside the emitter-collector matrix $`
+\int_ {\mathcal{V}} \mathbf{J} \cdot \mathbf{E} \, d\mathcal{V}`$.
 
 **Mode B: Negative Derivative Solar Intercept ($`\frac{dI_{\text{solar}}}{dt} \le \text{Threshold}_{\text{drop}}`$)**
 
