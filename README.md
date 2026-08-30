@@ -25,7 +25,7 @@ _**Electrodynamic Field and Force Derivations**_
 
 **Electric Field Asymmetry and Peek's Criterion**
 
-To model the generation of non-equilibrium atmospheric plasma at the sail define a cylindrical coordinate system $\r, \theta, \z$ aligned with a single emitter wire element of radius $r_0$, situated at a distance $d$ from a planar mesh collector plate $d \gg r_0$. 
+To model the generation of non-equilibrium atmospheric plasma at the sail define a cylindrical coordinate system $r, \theta, z$ aligned with a single emitter wire element of radius $r_0$, situated at a distance $d$ from a planar mesh collector plate $d \gg r_0$. 
 
 Assuming a quasi-static potential distribution where the spatial asymmetry factor $\alpha = A_{\text{collector}} / A_{\text{emitter}} \rightarrow \infty$, the electric field intensity $E(r)$ as a function of radial distance from the emitter wire axis is governed by Laplace’s equation.
 
@@ -39,23 +39,23 @@ Where $g_0 \approx 3 \times 10^6 \text{ V/m}$ is the intrinsic disruptive field 
 
 **Space-Charge Limited Current and Net EHD Thrust**
 
-Once $V > V_c$ the region outside the immediate corona ionization zone becomes dominated by unipolar ionic drift. In this drift zone, the electric field is governed by Poisson's equation rather than Laplace's equation, accounting for the space-charge density $\rho_c$:
+Once $V > V_c$ the region outside the immediate corona ionization zone becomes dominated by unipolar ionic drift. In this drift zone, the electric field is governed by Poisson's equation rather than Laplace's equation, accounting for the space-charge density $\rho_c$.
 
 $$\nabla \cdot \mathbf{E} = \frac{\rho_c}{\epsilon_0}$$
 
-The localized current density $\mathbf{J}$ is linked to ion mobility $\mu$ by:
+The localized current density $\mathbf{J}$ is linked to ion mobility $\mu$ by.
 
 $$\mathbf{J} = \rho_c \mu \mathbf{E}$$
 
-Substituting the current continuity equation $\nabla \cdot \mathbf{J} = 0$ for a one-dimensional drift gap $d$ yields the Mott-Gurney integration for the space-charge-limited current density:
+Substituting the current continuity equation $\nabla \cdot \mathbf{J} = 0$ for a one-dimensional drift gap $d$ yields the Mott-Gurney integration for the space-charge-limited current density.
 
 $$J = \frac{9}{8} \epsilon_0 \mu \frac{V^2}{d^3}$$
 
-The electrohydrodynamic body force per unit volume $\mathbf{f}_e$ acting on the fluid medium is the sum of the Coulomb force and the dielectrophoretic force:
+The electrohydrodynamic body force per unit volume $\mathbf{f}_e$ acting on the fluid medium is the sum of the Coulomb force and the dielectrophoretic force.
 
 $$\mathbf{f}_e = \rho_c \mathbf{E} - \frac{1}{2}E^2 \nabla \epsilon$$
 
-Because the protective insulation matrix provides a constant relative permittivity ($\nabla \epsilon = 0$) within the active air gap, the dielectrophoretic term drops out. Integrating the remaining Coulomb volume force $\rho_c \mathbf{E}$ over the entire active volume of the sail gap yields the net macroscopic EHD thrust vector $\mathbf{F}_{\text{thrust}}$:
+Because the protective insulation matrix provides a constant relative permittivity ($\nabla \epsilon = 0$) within the active air gap, the dielectrophoretic term drops out. Integrating the remaining Coulomb volume force $\rho_c \mathbf{E}$ over the entire active volume of the sail gap yields the net macroscopic EHD thrust vector $\mathbf{F}_{\text{thrust}}$.
 
 $$\mathbf{F}_{\text{thrust}} = \int_{\mathcal{V}} \rho_c \mathbf{E} \, d\mathcal{V} = \int_{0}^{d} \frac{J}{\mu} A_{\text{sail}} \, dx = \frac{I \cdot d}{\mu} \hat{\mathbf{x}}$$
 
@@ -66,7 +66,7 @@ _**Fluid Momentum and Hydrodynamic Boundary Conditions**_
 To solve for the steady-state cruise velocity of the vessel the atmospheric momentum transferred by the sail must balance the hydrodynamic skin-friction and wave-making drag of the hull. 
 
 **Navier-Stokes Air Coupling**
-The ionized air velocity vector $\mathbf{u}$ within the sail envelope is modeled by adding the electrodynamic body force to the incompressible Navier-Stokes formulation:
+The ionized air velocity vector $\mathbf{u}$ within the sail envelope is modeled by adding the electrodynamic body force to the incompressible Navier-Stokes formulation.
 
 $$\rho_{\text{air}} \left( \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} \right) = -\nabla p + \mu_{\text{visc}} \nabla^2 \mathbf{u} + \frac{\mathbf{J}}{\mu}$$
 
@@ -83,7 +83,7 @@ Where:
 * $C_f$ = Froude-dependent skin friction coefficient
 * $C_w$ = Wave-making resistance coefficient
 
-Setting $`\mathbf{F}_{\text{thrust}} = R_{\text{total}}(v)`$ establishes the steady-state kinematic equilibrium equation:
+Setting $`\mathbf{F}_{\text{thrust}} = R_{\text{total}}(v)`$ establishes the steady-state kinematic equilibrium equation.
 
 $$\frac{I \cdot d}{\mu} = \frac{1}{2} \rho_{\text{water}} v^2 A_{\text{wetted}} \left[ C_f(v) + C_w(v) \right]$$
 
@@ -93,11 +93,11 @@ _**Open-System Thermodynamic Conservation Equations**_
 The vessel is evaluated as a rigid control volume $\mathcal{V}$ experiencing unsteady state-switching transients governed by the first and second laws of thermodynamics.
 
 **The Control Volume Energy Balance**
-The first law energy balance equation for the control volume is written as:
+The first law energy balance equation for the control volume is written as.
 
 $$\frac{dE_{\mathcal{V}}}{dt} = \dot{Q} - \dot{W} + \sum \dot{m}_{\text{in}} \left(h + \frac{1}{2}u^2\right)_{\text{in}} - \sum \dot{m}_{\text{out}} \left(h + \frac{1}{2}u^2\right)_{\text{out}}$$
 
-Expanding the internal energy derivative $\frac{dE_{\mathcal{V}}}{dt}$ into its constituent chemical (battery storage) and mechanical (vessel mass inertia) components yields:
+Expanding the internal energy derivative $\frac{dE_{\mathcal{V}}}{dt}$ into its constituent chemical (battery storage) and mechanical (vessel mass inertia) components yields.
 
 $$V_{\text{bus}} I_{\text{batt}}(t) + M_{\text{ship}} v \frac{dv}{dt} = \eta_{\text{mppt}} P_{\text{solar}}(t) - P_{\text{loads}} - I^2 R_{\text{internal}} - R_{\text{total}}(v)v$$
 
@@ -107,7 +107,7 @@ Where $V_{\text{bus}}$ is the nominal DC bus voltage, $I_{\text{batt}}$ is the b
 
 **Mode A Saturated Storage Shunt $\text{SoC} \ge \text{SoC}_{\text{high}}$**
 
-When the chemical storage is full, the battery charging current is forced to zero $I_{\text{batt}} = 0$. The energy routing matrix shifts the entire solar output through the high-voltage transformer stage (operating at conversion efficiency $\eta_{\text{hv}}$), which modifies the open-system equation to:
+When the chemical storage is full, the battery charging current is forced to zero $I_{\text{batt}} = 0$. The energy routing matrix shifts the entire solar output through the high-voltage transformer stage (operating at conversion efficiency $\eta_{\text{hv}}$), which modifies the open-system equation to.
 
 $$\eta_{\text{hv}} P_{\text{solar}}(t) - P_{\text{loads}} = \left( \frac{I \cdot d}{\mu} \right) v + \dot{Q}_{\text{thermal}}$$
 
@@ -116,7 +116,7 @@ Where $`\dot{Q}_{\text{thermal}}`$ represents the irreversible Joule heating los
 
 **Mode B: Negative Derivative Solar Intercept $`\frac{dI_{\text{solar}}}{dt} \le \text{Threshold}_{\text{drop}}`$**
 
-When solar irradiance drops below the critical threshold, the BMS decouples the sail array $`I = 0`$ and deploys the hydrogenerator. The hydrogenerator extracts a mechanical torque $`T_{\text{mech}}`$ from the water velocity gradient, converting it to electrical charging power through the generator alternator windings $`\eta_{\text{gen}}`$:
+When solar irradiance drops below the critical threshold, the BMS decouples the sail array $`I = 0`$ and deploys the hydrogenerator. The hydrogenerator extracts a mechanical torque $`T_{\text{mech}}`$ from the water velocity gradient, converting it to electrical charging power through the generator alternator windings $`\eta_{\text{gen}}`$.
 
 $`V_{\text{bus}} I_{\text{batt}}(t) = \eta_{\text{gen}} \cdot T_{\text{mech}} \cdot \omega - P_{\text{loads}}`$
 
