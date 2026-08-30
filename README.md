@@ -66,6 +66,7 @@ _**Fluid Momentum and Hydrodynamic Boundary Conditions**_
 To solve for the steady-state cruise velocity of the vessel the atmospheric momentum transferred by the sail must balance the hydrodynamic skin-friction and wave-making drag of the hull. 
 
 **Navier-Stokes Air Coupling**
+
 The ionized air velocity vector $\mathbf{u}$ within the sail envelope is modeled by adding the electrodynamic body force to the incompressible Navier-Stokes formulation.
 
 $$\rho_{\text{air}} \left( \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} \right) = -\nabla p + \mu_{\text{visc}} \nabla^2 \mathbf{u} + \frac{\mathbf{J}}{\mu}$$
@@ -73,6 +74,7 @@ $$\rho_{\text{air}} \left( \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} 
 This acceleration creates a continuous pressure differential $\Delta p$ across the plane of the highly porous collector mesh transforming electrical energy into a net mass flow rate $\dot{m}_{\text{air}}$ exiting the sternward face of the sail assembly.
 
 **Hydrodynamic Drag Equilibrium**
+
 The hull encounters a total hydrodynamic resistance $R_{\text{total}}$ as a non-linear function of vessel velocity $v$:
 
 $$R_{\text{total}}(v) = \frac{1}{2} \rho_{\text{water}} v^2 A_{\text{wetted}} \left[ C_f(v) + C_w(v) \right]$$
@@ -93,6 +95,7 @@ _**Open-System Thermodynamic Conservation Equations**_
 The vessel is evaluated as a rigid control volume $\mathcal{V}$ experiencing unsteady state-switching transients governed by the first and second laws of thermodynamics.
 
 **The Control Volume Energy Balance**
+
 The first law energy balance equation for the control volume is written as.
 
 $$\frac{dE_{\mathcal{V}}}{dt} = \dot{Q} - \dot{W} + \sum \dot{m}_{\text{in}} \left(h + \frac{1}{2}u^2\right)_{\text{in}} - \sum \dot{m}_{\text{out}} \left(h + \frac{1}{2}u^2\right)_{\text{out}}$$
