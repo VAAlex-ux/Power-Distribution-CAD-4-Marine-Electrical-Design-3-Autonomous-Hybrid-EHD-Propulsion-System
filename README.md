@@ -83,10 +83,7 @@ Where:
 * $C_f$ = Froude-dependent skin friction coefficient
 * $C_w$ = Wave-making resistance coefficient
 
-Setting ```math
-\(\mathbf{F}_{\text{thrust}} = R_{\text{total}}\)(v)
-```
-establishes the steady-state kinematic equilibrium equation:
+Setting $`\mathbf{F}_{\text{thrust}} = R_{\text{total}}(v)`$ establishes the steady-state kinematic equilibrium equation:
 
 $$\frac{I \cdot d}{\mu} = \frac{1}{2} \rho_{\text{water}} v^2 A_{\text{wetted}} \left[ C_f(v) + C_w(v) \right]$$
 
