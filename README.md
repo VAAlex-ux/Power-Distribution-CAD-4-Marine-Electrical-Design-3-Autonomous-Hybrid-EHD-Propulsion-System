@@ -25,13 +25,13 @@ _**Electrodynamic Field and Force Derivations**_
 
 **Electric Field Asymmetry and Peek's Criterion**
 
-To model the generation of non-equilibrium atmospheric plasma at the sail define a cylindrical coordinate system $r, \theta, z$ aligned with a single emitter wire element of radius $r_0$, situated at a distance $d$ from a planar mesh collector plate $d \gg r_0$. 
+To model the generation of non-equilibrium atmospheric plasma at the sail define a cylindrical coordinate system $\r, \theta, \z$ aligned with a single emitter wire element of radius $r_0$, situated at a distance $d$ from a planar mesh collector plate $d \gg r_0$. 
 
-Assuming a quasi-static potential distribution where the spatial asymmetry factor $\alpha = A_{\text{collector}} / A_{\text{emitter}} \rightarrow \infty$, the electric field intensity $E(r)$ as a function of radial distance from the emitter wire axis is governed by Laplace’s equation:
+Assuming a quasi-static potential distribution where the spatial asymmetry factor $\alpha = A_{\text{collector}} / A_{\text{emitter}} \rightarrow \infty$, the electric field intensity $E(r)$ as a function of radial distance from the emitter wire axis is governed by Laplace’s equation.
 
 $$\nabla^2 \Phi = 0 \implies E(r) = \frac{V}{r \ln(d/r_0)}$$
 
-Where $V$ is the applied high-voltage DC potential. Air ionization occurs when $E(r)$ exceeds the local breakdown field strength $E_b$. Incorporating the air density correction factor $\delta$, the critical inception voltage $V_c$ required to trigger the Townsend avalanche is explicitly derived via Peek’s semi-empirical formulation:
+Where $V$ is the applied high-voltage DC potential. Air ionization occurs when $E(r)$ exceeds the local breakdown field strength $E_b$. Incorporating the air density correction factor $\delta$, the critical inception voltage $V_c$ required to trigger the Townsend avalanche is explicitly derived via Peek’s semi-empirical formulation.
 
 $$V_c = m_v g_0 \delta r_0 \left(1 + \frac{0.301}{\sqrt{\delta r_0}}\right) \ln\left(\frac{d}{r_0}\right)$$
 
