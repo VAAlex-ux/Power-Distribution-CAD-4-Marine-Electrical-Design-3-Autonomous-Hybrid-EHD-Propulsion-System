@@ -116,12 +116,12 @@ Where $`\dot{Q}_{\text{thermal}}`$ represents the irreversible Joule heating los
 
 **Mode B: Negative Derivative Solar Intercept ($`\frac{dI_{\text{solar}}}{dt} \le \text{Threshold}_{\text{drop}}`$)**
 
-When solar irradiance drops below the critical threshold, the BMS decouples the sail array ($I = 0$) and deploys the hydrogenerator. The hydrogenerator extracts a mechanical torque $T_{\text{mech}}$ from the water velocity gradient, converting it to electrical charging power through the generator alternator windings ($\eta_{\text{gen}}$):
+When solar irradiance drops below the critical threshold, the BMS decouples the sail array ($`I = 0`$) and deploys the hydrogenerator. The hydrogenerator extracts a mechanical torque $`T_{\text{mech}}`$ from the water velocity gradient, converting it to electrical charging power through the generator alternator windings ($`\eta_{\text{gen}}`$):
 
-$$V_{\text{bus}} I_{\text{batt}}(t) = \eta_{\text{gen}} \cdot T_{\text{mech}} \cdot \omega - P_{\text{loads}}$$
+$$`V_{\text{bus}} I_{\text{batt}}(t) = \eta_{\text{gen}} \cdot T_{\text{mech}} \cdot \omega - P_{\text{loads}}`$$
 
 The extraction torque acts as an intentional hydrodynamic brake augmenting the total resistance profile.
 
-$$R_{\text{total\_regen}}(v) = R_{\text{total}}(v) + \frac{T_{\text{mech}}}{r_{\text{turbine}}}$$
+$$`R_{\text{total\_regen}}(v) = R_{\text{total}}(v) + \frac{T_{\text{mech}}}{r_{\text{turbine}}}`$$
 
-This forces a controlled decrescendo of the vessel's kinetic energy reservoir ($M_{\text{ship}} v \frac{dv}{dt}$) to preserve electrical system functionality in the absence of solar exergy inputs.
+This forces a controlled decrescendo of the vessel's kinetic energy reservoir ($`M_{\text{ship}} v \frac{dv}{dt}`$) to preserve electrical system functionality in the absence of solar exergy inputs.
