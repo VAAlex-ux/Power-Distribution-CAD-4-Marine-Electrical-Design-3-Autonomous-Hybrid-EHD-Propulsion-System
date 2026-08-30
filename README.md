@@ -25,7 +25,7 @@ _**Electrodynamic Field and Force Derivations**_
 
 **Electric Field Asymmetry and Peek's Criterion**
 
-To model the generation of non-equilibrium atmospheric plasma at the sail, we define a cylindrical coordinate system $(r, \theta, z)$ aligned with a single emitter wire element of radius $r_0$, situated at a distance $d$ from a planar mesh collector plate ($d \gg r_0$). 
+To model the generation of non-equilibrium atmospheric plasma at the sail, we define a cylindrical coordinate system $r, \theta, z$ aligned with a single emitter wire element of radius $r_0$, situated at a distance $d$ from a planar mesh collector plate $d \gg r_0$. 
 
 Assuming a quasi-static potential distribution where the spatial asymmetry factor $\alpha = A_{\text{collector}} / A_{\text{emitter}} \rightarrow \infty$, the electric field intensity $E(r)$ as a function of radial distance from the emitter wire axis is governed by Laplace’s equation:
 
