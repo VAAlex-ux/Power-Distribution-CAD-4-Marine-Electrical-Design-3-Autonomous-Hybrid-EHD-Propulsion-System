@@ -127,3 +127,10 @@ The extraction torque acts as an intentional hydrodynamic brake augmenting the t
 $`R_{\text{total\_regen}}(v) = R_{\text{total}}(v) + \frac{T_{\text{mech}}}{r_{\text{turbine}}}`$
 
 This forces a controlled decrescendo of the vessel's kinetic energy reservoir $`M_{\text{ship}} v \frac{dv}{dt}`$ to preserve electrical system functionality in the absence of solar exergy inputs.
+
+Order of Documents and Legend
+
+* (DraftSight) 1. Li Ion Battery Solar Charger
+* (DraftSight) 2. Solar Power Water Propeller Generator
+
+© [2026] [Velikov, Aleksandar (Alexander)]. All rights reserved. This project and the underlying technologies are protected by international copyright laws
