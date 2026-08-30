@@ -1,6 +1,6 @@
 # Power-Distribution-CAD-4-Marine-Electrical-Design-3-Autonomous-Hybrid-EHD-Propulsion-System
 
-This is a prototype of an automated marine microgrid integrating solar overcharge drive electrohydrodynamic thrust over hydro-regenerative battery balancing.
+This is a prototype of an automated marine microgrid integrating solar overcharge drive electrohydrodynamic thrust using hydro-regenerative battery balancing. Additionally equipped with AA local chargers and Li Ion battery solar chargers. 
 
 **System Overview**
 
